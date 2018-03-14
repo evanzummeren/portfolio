@@ -1,0 +1,17 @@
+{{!-- Subscribe widget for footer area --}}
+<h4  class="widget-title">Subscribe to {{@blog.title}}</h4>
+
+{{#if @labs.subscribers}}
+<div class="subscriber">
+
+	<p>Stay up todate! Get all the latest &amp; gretest posts delivered straight to your inbox
+
+	{{subscribe_form
+		form_class="subscribe-form" 
+		input_class="subscribe-input"
+		button_class="subscribe_button"
+		placeholder="yourmail@example.com"
+		autofocus="true"}}
+
+</div>
+{{/if}}

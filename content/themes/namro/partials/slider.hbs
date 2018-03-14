@@ -1,0 +1,22 @@
+<div id="namro-slider">
+
+	<div class="overlay"></div>
+
+	{{#get "posts" filter="featured:true" include="author" limit="3"}}
+	{{#foreach posts}}
+	<div class="slide-item" data-current-slide="{{@index}}">
+
+		<div class="slide-content">
+			<div class="slide-post-meta entry-meta">
+				<span class="byauthor">{{excerpt}}</span>
+			</div>
+			<h2 class="slide-post-title"><a href="{{url}}">{{title}}</a></h2>
+		</div>
+
+	</div>
+
+	<div class="slide-img has-bg" data-current-slide="{{@index}}" style="background-image: url({{feature_image}});"></div>
+	{{/foreach}}
+	{{/get}}
+
+</div>

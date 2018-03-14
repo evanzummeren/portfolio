@@ -1,0 +1,21 @@
+{{#author}}
+<div class="post-author">
+
+	{{#if profile_image}}
+	<div class="author-avatar">
+		<img class="avatar avatar-80" src="{{profile_image}}" alt="{{name}}">
+	</div>
+	{{/if}}
+
+	<div class="author-desc">
+		<span>Written by</span>
+		<h3 class="author-name"><a href="{{url}}">{{name}}</a></h3>
+		{{#if bio}}
+            <p class="author-bio">{{bio}} <a class="author-link" href="{{url}}">View all posts by {{name}}</a></p>
+        {{else}}
+            <p class="author-bio">Read <a href="{{url}}">more posts</a> by this author.</p>
+        {{/if}}
+	</div>
+
+</div>
+{{/author}}

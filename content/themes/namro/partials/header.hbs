@@ -1,0 +1,23 @@
+<header id="header">
+    <div class="container">
+
+        <div class="site-branding">
+            
+            <div class="brand">
+                {{#if @blog.logo}}
+                    <h1 class="site-title-image site-title-logo"><a href="{{@blog.url}}"><img src="../assets/images/logo.svg" alt="{{@blog.title}}"s/></a></h1>
+                {{else}}
+                    <h2 class="site-title-image"><a href="{{@blog.url}}">{{@blog.title}}</a></h2>
+                {{/if}}
+                
+                <p class="site-description">{{@blog.description}}</p>
+            </div>
+            
+        </div>
+            
+        <div class="site-nav">
+            {{> "nav"}}         
+        </div>
+
+    </div>
+</header>

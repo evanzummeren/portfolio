@@ -1,0 +1,37 @@
+{
+    "name": "namro",
+    "description": "Minimal blog ghost theme",
+    "demo": "http://gh-namro.messaworks.com",
+    "version": "1.0",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Messaworks",
+        "email": "hello@messaworks.com",
+        "url": "http://messaworks.com"
+    },
+    "config": {
+        "posts_per_page": 6
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Magazine",
+			"Personal",
+			"Content Focus"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+		"minmalist",
+		"white"
+    ]
+}
