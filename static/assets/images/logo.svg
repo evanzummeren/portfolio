@@ -2,7 +2,18 @@
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 129.4 175.1" style="enable-background:new 0 0 129.4 175.1;" xml:space="preserve">
-<path d="M78.6,51.2L92.3,0H30.4L16.6,51.2h0L0,113.1h50.9l-16.6,61.9h61.9l33.2-123.9H78.6z M31.7,61.9h32.8l-8.6,32L31.7,61.9z
-	 M108.7,61.9L67.1,94.1l8.6-32.2H108.7z M38.6,10.8h39.6L67.4,51.2H27.8L38.6,10.8z M23.1,68.5l25.7,33.9H14L23.1,68.5z M88,164.3
-	H48.3l14.2-52.9l49.6-37.1L88,164.3z"/>
+<style type="text/css">
+	.st0{fill:none;}
+</style>
+<g>
+	<polygon class="st0" points="64.5,62 60.4,62 64.5,62 64.5,61.9 31.7,61.9 55.9,93.9 	"/>
+	<polygon class="st0" points="14,102.3 48.8,102.3 23.1,68.5 	"/>
+	<polygon class="st0" points="78.3,10.8 38.6,10.8 27.8,51.2 67.4,51.2 	"/>
+	<polygon class="st0" points="108.7,61.9 75.7,61.9 75.7,62 85.4,62 75.7,62 67.1,94.1 	"/>
+	<polygon class="st0" points="62.5,111.4 48.3,164.3 88,164.3 112.1,74.3 	"/>
+	<path d="M78.6,51.2L92.3,0H30.4L16.6,51.2h0L0,113.1h50.9l-16.6,61.9h61.9l33.2-123.9H78.6z M38.6,10.8h39.6L67.4,51.2H27.8
+		L38.6,10.8z M14,102.3l9.1-33.9l25.7,33.9H14z M64.5,62l-8.6,31.9l-24.2-32L64.5,62L64.5,62 M75.7,61.9h33L67.1,94.1 M88,164.3
+		H48.3l14.2-52.9l49.6-37.1L88,164.3z"/>
+</g>
+<line class="st0" x1="60.4" y1="62" x2="89.4" y2="62"/>
 </svg>

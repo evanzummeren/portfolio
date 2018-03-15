@@ -16,7 +16,7 @@
     <!-- Custom Theme Style -->
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css?v=acf0b24c6c">
     
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.png" type="image/png">
     <link rel="canonical" href="index.html">
     <meta name="referrer" content="no-referrer-when-downgrade">
     <link rel="amphtml" href="amp/index.html">
@@ -24,16 +24,16 @@
     <meta property="og:site_name" content="Erik van Zummeren">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Historical Dutch Asiatic Trading">
-    <meta property="og:description" content="Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. It's a data visualisation that I made together with RJ Korteschiel. The underlying data is based on the Boekhouders-Generaal Batavia (BGB) database, a database that was digitized and provided by the Huygens ING. The BGB">
+    <meta property="og:description" content="Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. The data visualisation, which I made with RJ Korteschiel, shows the overall size of the trade. With the help of minard lines the trading size of individual goods are also shown. The underlying data is">
     <meta property="og:url" content="http://localhost:2368/historical-dutch-asiatic-trading/">
     <meta property="og:image" content="http://localhost:2368/content/images/2018/03/hdat.jpg">
     <meta property="article:published_time" content="2018-03-06T17:50:00.000Z">
-    <meta property="article:modified_time" content="2018-03-14T20:36:01.000Z">
+    <meta property="article:modified_time" content="2018-03-14T23:39:48.000Z">
     <meta property="article:tag" content="Datavis &amp;amp; BA Thesis">
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Historical Dutch Asiatic Trading">
-    <meta name="twitter:description" content="Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. It's a data visualisation that I made together with RJ Korteschiel. The underlying data is based on the Boekhouders-Generaal Batavia (BGB) database, a database that was digitized and provided by the Huygens ING. The BGB">
+    <meta name="twitter:description" content="Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. The data visualisation, which I made with RJ Korteschiel, shows the overall size of the trade. With the help of minard lines the trading size of individual goods are also shown. The underlying data is">
     <meta name="twitter:url" content="http://localhost:2368/historical-dutch-asiatic-trading/">
     <meta name="twitter:image" content="http://localhost:2368/content/images/2018/03/hdat.jpg">
     <meta name="twitter:label1" content="Written by">
@@ -62,7 +62,7 @@
     "headline": "Historical Dutch Asiatic Trading",
     "url": "http://localhost:2368/historical-dutch-asiatic-trading/",
     "datePublished": "2018-03-06T17:50:00.000Z",
-    "dateModified": "2018-03-14T20:36:01.000Z",
+    "dateModified": "2018-03-14T23:39:48.000Z",
     "image": {
         "@type": "ImageObject",
         "url": "http://localhost:2368/content/images/2018/03/hdat.jpg",
@@ -70,7 +70,7 @@
         "height": 1409
     },
     "keywords": "Datavis & BA Thesis",
-    "description": "Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. It&#x27;s a data visualisation that I made together with RJ Korteschiel. The underlying data is based on the Boekhouders-Generaal Batavia (BGB) database, a database that was digitized and provided by the Huygens ING. The BGB",
+    "description": "Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. The data visualisation, which I made with RJ Korteschiel, shows the overall size of the trade. With the help of minard lines the trading size of individual goods are also shown. The underlying data is",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2368/"
@@ -109,7 +109,7 @@ ghost.init({
         <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="../">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="../about/">About</a></li>
-    <li class="nav-contact" role="menuitem"><a href="../">Contact</a></li>
+    <li class="nav-contact" role="menuitem"><a href="../contact/">Contact</a></li>
 </ul>
 
 </nav>        </div>
@@ -133,9 +133,12 @@ ghost.init({
 
 	<div class="inner">
 		<div class="post-content">
-			<div class="kg-card-markdown"><p>Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. It's a data visualisation that I made together with RJ Korteschiel.</p>
+			<div class="kg-card-markdown"><p>Historical Dutch-Asiatic Trading (HDAT) shows an interpolation of the historical Dutch-Asiatic and Intra-Asiatic trading lines. The data visualisation, which I made with RJ Korteschiel, shows the overall size of the trade. With the help of minard lines the trading size of individual goods are also shown.</p>
 <p><video class="post-video" src="https://s3.eu-central-1.amazonaws.com/evanzummeren.com/hdat+preview.mp4" type="video/mp4" controls autoplay></video></p>
-<p>The underlying data is based on the Boekhouders-Generaal Batavia (BGB) database, a database that was digitized and provided by the Huygens ING. The BGB</p>
+<p>The underlying data is based on the Boekhouders-Generaal Batavia (BGB) database, a database that was digitized and provided by the Huygens ING. The BGB contains data on the departure or arrival of around 20 000 ships in the 18th century, and the inventory of these ships.</p>
+<p>A network, based on the atlas Van Keulen and various shipping logs, was drawn in QGIS. Through PgRouting and PostGIS these routes were connected with the ships. The sailing speeds were interpolated with the help of the data from the daily shipping logs.</p>
+<p>Frontend was done in Leaflet and React.</p>
+<p>Later on I used the database and the visualisation as the base for my bachelor thesis on the Dutch trade with Persia.</p>
 </div>
 
 
@@ -164,29 +167,11 @@ ghost.init({
     <footer id="footer" class="site-footer">
     <div class="container">
         
-        <div class="footer-wraps">
+     <!--    <div class="footer-wraps">
 
             <div class="footer-wrap-left footer-wrap">
                 <div class="footer-widget">
 
-                    <h4 class="widget-title">Recent Posts</h4>
-
-<ul> 
-
-        <li>
-            <a href="../mm/">Moedermelk delen</a>
-        </li>
-        <li>
-            <a href="../the-white-cube/">The White Cube Website</a>
-        </li>
-        <li>
-            <a href="../de-pont-van-kwart-over-zeven/">De pont van kwart over zeven</a>
-        </li>
-        <li>
-            <a href="index.html">Historical Dutch Asiatic Trading</a>
-        </li>
-
-</ul>
                 
                 </div>
             </div>
@@ -194,13 +179,6 @@ ghost.init({
             <div class="footer-wrap-center footer-wrap">
                 <div class="footer-widget"> 
 
-                    <h4 class="widget-title">Tag Cloud</h4>
-
-<div class="tagcloud">
-    
-    <a href="http://localhost:2368/tag/design-development">Design Development</a><a href="http://localhost:2368/tag/nieuwsuur">Research Nieuwsuur</a><a href="http://localhost:2368/tag/datavis">Datavis &amp; BA Thesis</a><a href="http://localhost:2368/tag/design-development-concept-cinematography">Design Development &amp; Concept</a>
-
-</div>
 
                 </div>
             </div>
@@ -208,14 +186,12 @@ ghost.init({
             <div class="footer-wrap-right footer-wrap">
                 <div class="footer-widget">
 
-                    <h4 class="widget-title">Subscribe to Erik van Zummeren</h4>
-
 
                 </div>  
             </div>
 
         </div>
-        
+         -->
     </div>
     <div class="copyright">Copyright © 2018 - <a href="../">Erik van Zummeren</a></div>
 </footer>

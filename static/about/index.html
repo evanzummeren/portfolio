@@ -16,22 +16,26 @@
     <!-- Custom Theme Style -->
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css?v=acf0b24c6c">
     
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.png" type="image/png">
     <link rel="canonical" href="index.html">
     <meta name="referrer" content="no-referrer-when-downgrade">
     
     <meta property="og:site_name" content="Erik van Zummeren">
     <meta property="og:type" content="website">
     <meta property="og:title" content="About">
-    <meta property="og:description" content="I'm a Dutch journalist, designer-developer. Lately I have mostly been focussing on digital storytelling. I know this term sounds kinda lame. I studied History (BA) and Journalism (MA) at the University of Amsterdam. I currently work as a freelancer. Lately I have been working for Campscapes/iC-ACCESS, the Expertise Centre">
+    <meta property="og:description" content="I'm a Dutch journalist and designer-developer. I studied History (BA) and Journalism (MA) at the University of Amsterdam. I currently work as a freelancer. Some of my recent clients include Campscapes/iC-ACCESS, the Expertise Centre for Journalism, Pieter van Huystee Film &amp;amp; TV, Stichting Verhalende Journalistiek, Institute for Human Activities">
     <meta property="og:url" content="http://localhost:2368/about/">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="http://localhost:2368/content/images/2018/03/foto_black.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About">
-    <meta name="twitter:description" content="I'm a Dutch journalist, designer-developer. Lately I have mostly been focussing on digital storytelling. I know this term sounds kinda lame. I studied History (BA) and Journalism (MA) at the University of Amsterdam. I currently work as a freelancer. Lately I have been working for Campscapes/iC-ACCESS, the Expertise Centre">
+    <meta name="twitter:description" content="I'm a Dutch journalist and designer-developer. I studied History (BA) and Journalism (MA) at the University of Amsterdam. I currently work as a freelancer. Some of my recent clients include Campscapes/iC-ACCESS, the Expertise Centre for Journalism, Pieter van Huystee Film &amp;amp; TV, Stichting Verhalende Journalistiek, Institute for Human Activities">
     <meta name="twitter:url" content="http://localhost:2368/about/">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2018/03/foto_black.jpg">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Erik van Zummeren">
     <meta name="twitter:site" content="@evanzummeren">
+    <meta property="og:image:width" content="1795">
+    <meta property="og:image:height" content="1199">
     
     <script type="application/ld+json">
 {
@@ -49,7 +53,13 @@
     },
     "headline": "About",
     "url": "http://localhost:2368/about/",
-    "description": "I&#x27;m a Dutch journalist, designer-developer. Lately I have mostly been focussing on digital storytelling. I know this term sounds kinda lame. I studied History (BA) and Journalism (MA) at the University of Amsterdam. I currently work as a freelancer. Lately I have been working for Campscapes/iC-ACCESS, the Expertise Centre",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2018/03/foto_black.jpg",
+        "width": 1795,
+        "height": 1199
+    },
+    "description": "I&#x27;m a Dutch journalist and designer-developer. I studied History (BA) and Journalism (MA) at the University of Amsterdam. I currently work as a freelancer. Some of my recent clients include Campscapes/iC-ACCESS, the Expertise Centre for Journalism, Pieter van Huystee Film &amp;amp; TV, Stichting Verhalende Journalistiek, Institute for Human Activities",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2368/"
@@ -88,7 +98,7 @@ ghost.init({
         <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="../">Home</a></li>
     <li class="nav-about nav-current" role="menuitem"><a href="index.html">About</a></li>
-    <li class="nav-contact" role="menuitem"><a href="../">Contact</a></li>
+    <li class="nav-contact" role="menuitem"><a href="../contact/">Contact</a></li>
 </ul>
 
 </nav>        </div>
@@ -102,6 +112,7 @@ ghost.init({
 	
 	<div class="post-header">
 
+		<div class="post-cover" style="background-image: url(../content/images/2018/03/foto_black.jpg)"></div>
 
 	<div class="inner">
 		<h1 class="post-title">About</h1>
@@ -111,10 +122,11 @@ ghost.init({
 
 	<div class="inner">
 		<div class="post-content">
-			<div class="kg-card-markdown"><p>I'm a Dutch journalist, designer-developer. Lately I have mostly been focussing on digital storytelling. I know this term sounds kinda lame. I studied History (BA) and Journalism (MA) at the University of Amsterdam.</p>
-<p>I currently work as a freelancer. Lately I have been working for Campscapes/iC-ACCESS, the Expertise Centre for Journalism, Pieter van Huystee, Stichting Verhalende Journalistiek, Institute for Human Activities and Nieuwsuur.</p>
-<p>I was a student-assistent at Coding the Humanities (UvA) and CREATE (UvA). I have been interning at VPRO Digitaal/Tegenlicht as a creative coder and as a researcher at Pieter van Huystee.</p>
+			<div class="kg-card-markdown"><p>I'm a Dutch journalist and designer-developer. I studied History (BA) and Journalism (MA) at the University of Amsterdam.</p>
+<p>I currently work as a freelancer. Some of my recent clients include Campscapes/iC-ACCESS, the Expertise Centre for Journalism, Pieter van Huystee Film &amp; TV, Stichting Verhalende Journalistiek, Institute for Human Activities and Nieuwsuur.</p>
+<p>I have been working as a student-assistant at the <a href="http://codingthehumanities.com/">Coding the Humanities</a> platform (UvA) and <a href="http://www.create.humanities.uva.nl/results/1461-2/">CREATE TOPIC</a> (UvA). I was also interning at VPRO Digitaal/Tegenlicht as a creative coder and as a researcher at Pieter van Huystee.</p>
 <p>A full resume is available upon request.</p>
+<p><img src="../content/images/2018/03/foto_black-1.jpg" alt="foto_black-1"></p>
 </div>
 		</div>
 	</div>
@@ -126,29 +138,11 @@ ghost.init({
     <footer id="footer" class="site-footer">
     <div class="container">
         
-        <div class="footer-wraps">
+     <!--    <div class="footer-wraps">
 
             <div class="footer-wrap-left footer-wrap">
                 <div class="footer-widget">
 
-                    <h4 class="widget-title">Recent Posts</h4>
-
-<ul> 
-
-        <li>
-            <a href="../mm/">Moedermelk delen</a>
-        </li>
-        <li>
-            <a href="../the-white-cube/">The White Cube Website</a>
-        </li>
-        <li>
-            <a href="../de-pont-van-kwart-over-zeven/">De pont van kwart over zeven</a>
-        </li>
-        <li>
-            <a href="../historical-dutch-asiatic-trading/">Historical Dutch Asiatic Trading</a>
-        </li>
-
-</ul>
                 
                 </div>
             </div>
@@ -156,13 +150,6 @@ ghost.init({
             <div class="footer-wrap-center footer-wrap">
                 <div class="footer-widget"> 
 
-                    <h4 class="widget-title">Tag Cloud</h4>
-
-<div class="tagcloud">
-    
-    <a href="http://localhost:2368/tag/design-development">Design Development</a><a href="http://localhost:2368/tag/nieuwsuur">Research Nieuwsuur</a><a href="http://localhost:2368/tag/datavis">Datavis &amp; BA Thesis</a><a href="http://localhost:2368/tag/design-development-concept-cinematography">Design Development &amp; Concept</a>
-
-</div>
 
                 </div>
             </div>
@@ -170,14 +157,12 @@ ghost.init({
             <div class="footer-wrap-right footer-wrap">
                 <div class="footer-widget">
 
-                    <h4 class="widget-title">Subscribe to Erik van Zummeren</h4>
-
 
                 </div>  
             </div>
 
         </div>
-        
+         -->
     </div>
     <div class="copyright">Copyright © 2018 - <a href="../">Erik van Zummeren</a></div>
 </footer>
